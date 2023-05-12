@@ -87,9 +87,7 @@ while(True):
                 if(len(contours_violet)!=0):
                         pyautogui.click(button='right')
                         cv.waitKey(1000)                
-                                        
-
-                      
+                                                
         cv.imshow('Frame',frame)
         if cv.waitKey(10) == 27:
                 break
